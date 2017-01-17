@@ -44,14 +44,11 @@ enum
 /**********************************
 *  Radio selection and node config
 ***********************************/
-
-// Selecting uplink transport layer is optional (for a gateway node).
-
-#define MY_RADIO_NRF24
-
 /**********************************
 *  NRF24L01P Driver Defaults
 ***********************************/
+
+#define MY_RADIO_NRF24
 
 /**
  * @def MY_RF24_CE_PIN
