@@ -96,6 +96,6 @@ enum
 * @def MY_TRANSPORT_WAIT_READY_MS
 * @brief Timeout in MS until transport is ready during startup, set to 0 for no timeout
 */
-//#define MY_TRANSPORT_WAIT_READY_MS (10000ul)
+#define MY_TRANSPORT_WAIT_READY_MS (5000ul)
 
 #endif
